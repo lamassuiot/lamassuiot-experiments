@@ -1,0 +1,24 @@
+go 1.22.0
+
+replace github.com/ugorji/go v1.1.4 => github.com/ugorji/go/codec v0.0.0-20190204201341-e444a5086c43
+
+use (
+	./engines/eventbus/channel
+	./engines/storage/couchdb
+	./engines/storage/sqlite
+	./lamassuiot/backend
+	./lamassuiot/connectors/awsiot
+	./lamassuiot/core
+	./lamassuiot/engines/crypto/aws
+	./lamassuiot/engines/crypto/filesystem
+	./lamassuiot/engines/crypto/pkcs11
+	./lamassuiot/engines/crypto/vaultkv2
+	./lamassuiot/engines/eventbus/amqp
+	./lamassuiot/engines/eventbus/aws
+	./lamassuiot/engines/storage/postgres
+	./lamassuiot/sdk
+	./lamassuiot/shared/aws
+	./lamassuiot/shared/http
+	./lamassuiot/shared/subsystems
+	./monolithic
+)

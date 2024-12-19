@@ -1,0 +1,3 @@
+[submodule "lamassuiot"]
+	path = lamassuiot
+	url = https://github.com/lamassuiot/lamassuiot.git
